@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from "react";
+import {Header} from "./Header";
+import Navbar from "./Navbar";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Navbar/>
+      <Header/>
+      <p>Hello, Everyone</p>
     </div>
   );
 }
 
 export default App;
+
+
+{/* 
+  1. Ada 3 Jenis Component : Class Component, Function Component, Arrow Function Component
+  2. Jenis cara export dan import ada 2 : Export Default dan Export yang pake ini {}
+*/}
+
