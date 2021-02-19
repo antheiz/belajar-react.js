@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import StateProps from './StateProps';
 // import App from './App';
-import {Variabel} from './Variabel'
+// import {Variabel} from './Variabel'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Variabel />
+    <StateProps />
   </React.StrictMode>,
   document.getElementById('root')
 );
